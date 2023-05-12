@@ -1,6 +1,11 @@
 //UNLICNESED
 pragma solidity 0.8.0;
-
+/**
+ * @title ERC-20 With additional function approve function
+ * @author mon-1 https://github.com/mon-1
+ * @notice this is a contract with an additional approve function that allows the owner to be approved as a spender to the contracts token balance
+ * @dev UNAUDITED CODE CAN CAUSE ERRORS AND EXPLOITS, THIS IS NOT PRODUCTION READY
+ */ */
 contract ERC20{
 
     mapping (address => uint) public balances;
