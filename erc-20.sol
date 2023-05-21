@@ -24,7 +24,7 @@ contract ERC20{
     event Approval(address indexed owner, address indexed spender, uint amount);
 
 
-    constructor(string memory _name, string memory _symbol){
+    constructor(string calldata _name, string calldata _symbol){
         owner = msg.sender;
         name = _name;
         symbol = _symbol;
